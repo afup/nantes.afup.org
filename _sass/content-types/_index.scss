@@ -1,0 +1,45 @@
+body.index {
+  article {
+    width: 100%;
+  }
+
+  .latest-article {
+    .latest-article-title {
+      font-weight: bold;
+    }
+
+    a.latest-article-title,
+    .latest-article-title-excerpt a {
+      text-decoration: none;
+    }
+
+    .latest-article-date {
+      text-align: right;
+      float: right;
+    }
+  }
+
+  .previous-articles {
+    padding: 0;
+    list-style: none;
+
+    li {
+      padding: 8px 10px;
+      border-bottom: 1px dotted #eae4da
+    }
+
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline
+      }
+    }
+
+    .previous-article-date {
+      text-align: right;
+      float: right;
+      color: #333333;
+    }
+  }
+}
+

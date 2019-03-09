@@ -1,0 +1,5 @@
+/_site
+/.sass-cache
+/.jekyll-metadata
+/docker-compose.override.yml
+/_config_dev.yml

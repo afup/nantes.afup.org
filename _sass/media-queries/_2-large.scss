@@ -1,0 +1,46 @@
+@media screen and (min-width: $lg-break-point) {
+  table {
+    display: table;
+    min-width: 100%;
+  }
+
+  .nav-main {
+    padding: 0;
+    text-align: left;
+    a {
+      font-size: 13px;
+      display: block;
+      padding-right: 2em;
+      margin: 0;
+    }
+  }
+
+  .content-container {
+    margin: 0 auto;
+    max-width: $content-wrapper-width;
+  }
+
+  article {
+    width: 80%;
+    margin: auto;
+  }
+
+  .post-links, .subheader {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .subheader-link {
+    width: 100%;
+  }
+
+  .link-to-post {
+    margin: 50px auto;
+    padding: 2em;
+
+    .fas {
+      margin: 0 8px;
+    }
+  }
+}

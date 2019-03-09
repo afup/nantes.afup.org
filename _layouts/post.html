@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="post">
+
+    <h1 class="post-title">{{ page.title }}</h1>
+
+    <span class="publication-date">Publié le {{ page.date | date: "%d/%m/%Y" }}</span>
+
+    {{ content }}
+
+    <div class="post-links">
+      {% if page.previous.url %}
+      <a class="link-to-post" href="{{ page.previous.url | relative_url}}">
+        <span class="link-to-post__prev"><i class="fas fa-backward"></i>&nbsp;Article précédent</span>
+        <span class="link-to-post__title">{{ page.previous.title }}</span>
+      </a>
+      {% endif %}
+
+      {% if page.next.url %}
+        <a class="link-to-post" href="{{ page.next.url | relative_url}}">
+          <span class="link-to-post__next">Article suivant&nbsp;<i class="fas fa-forward"></i></span>
+          <span class="link-to-post__title">{{ page.next.title }}</span>
+        </a>
+      {% endif %}
+    </div>
+
+</article>

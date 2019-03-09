@@ -1,0 +1,17 @@
+a.call-to-action {
+  padding: 10px 30px;
+  background-color: $call-to-action-color;
+  border: 1px solid $call-to-action-color;
+  color:#fff;
+  font-size: 130%;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arimo, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  &:hover {
+    color: $call-to-action-color;
+    background-color: #fff;
+    text-decoration: none;
+  }
+}

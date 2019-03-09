@@ -1,0 +1,11 @@
+version: "2.1"
+services:
+  blog:
+    image: jekyll/jekyll:builder
+    environment:
+        JEKYLL_UID: "${CURRENT_UID:-1001}"
+        JEKYLL_GUID: "${CURRENT_GID:-1001}"
+    volumes:
+      - ./:/srv/jekyll
+    working_dir: /srv/jekyll
+    command: jekyll serve --config _config.yml,_config_dev.yml

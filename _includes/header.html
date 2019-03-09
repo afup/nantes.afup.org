@@ -1,0 +1,33 @@
+<header class="main-header">
+
+  <div class="header-image">
+    <a href="{{ site.baseurl }}/">
+      <img src="/files/theme/logo_text.png" style="width: 70%"/>
+    </a>
+  </div>
+
+  <input type="checkbox" id="menu-checkbox" />
+
+  <nav class="center-wrapper nav-main">
+
+    <a class="blog-logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
+
+
+    <a href="{{ site.meetup_url }}"><i class="fab fa-meetup icon"></i> Groupe meetup</a>
+    <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fab fa-twitter icon"></i> Twitter</a>
+    <a href="https://afup.org"><i class="fa fa-building icon"></i> afup.org</a>
+    <a href="https://afup.org/association/devenir-membre"><i class="fa fa-user icon"></i> Devenir membre</a>
+
+    <a href="{{ "/feed" | prepend: site.baseurl }}"><i class="fas fa-rss icon"></i> RSS</a>
+
+    {% if site.subheader %}
+      {% for subheader_item in site.subheader %}
+      <a href="{{ subheader_item.url }}" class="nav-item-mobile-only">
+        <i class="fas fa-{{ subheader_item.icon }} icon"></i>&nbsp;{{ subheader_item.label }}
+      </a>
+      {% endfor %}
+    {% endif %}
+
+    <label for="menu-checkbox" class="toggle-button" data-open="☰" data-close="☰" onclick></label>
+  </nav>
+</header>

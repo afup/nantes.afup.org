@@ -1,0 +1,126 @@
+/*
+* Toggle Button
+* ========================================================================== */
+.nav-main a:not(.blog-logo) {
+  display: none;
+}
+
+#menu-checkbox {
+  display: none;
+}
+
+.toggle-button {
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  left: 0;
+  top: 0;
+  color: #000;
+  font-size: 18px;
+}
+
+#menu-checkbox:checked + .nav-main a:not(.blog-logo) {
+  display: block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+}
+
+#menu-checkbox:checked + .nav-main {
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  height: 100%;
+}
+
+.toggle-button:after {
+  content: attr(data-open);
+  cursor: pointer;
+  padding: 15px;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+#menu-checkbox:checked + .nav-main .toggle-button:after {
+  content: attr(data-close);
+}
+
+/*
+* Header Navigation
+* ========================================================================== */
+.nav-main {
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 0 1rem;
+  text-transform: uppercase;
+  overflow: hidden;
+  a {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    line-height: 50px;
+    margin: auto;
+    color: #333;
+    text-decoration: none;
+    padding: 0 1rem;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: #fff;
+      background-color: #1d2241;
+    }
+  }
+
+  .icon {
+    margin-right: 8px;
+  }
+}
+
+
+
+/*
+* Logotypes
+* ========================================================================== */
+.nav-main {
+  .blog-logo {
+    width: 100%;
+    line-height: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    border-bottom: 0;
+    text-align: center;
+    font-weight: bold;
+    &:hover,
+    &:focus,
+    &:active {
+      color: #000;
+      background: none;
+    }
+  }
+}
+
+@media screen and (min-width: $md-break-point){
+  .toggle-button {
+    display: none;
+  }
+}
+
