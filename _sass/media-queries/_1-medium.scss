@@ -22,11 +22,11 @@
     text-align: center;
   }
 
-  .nav-main .blog-logo {
-    -webkit-order: 0;
-    -ms-flex-order: 0;
-    order: 0;
-    width: auto;
+  .nav-main {
+    .blog-logo,
+    .logo-image {
+      display: none;
+    }
   }
 
   .nav-main a:not(.blog-logo) {

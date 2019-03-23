@@ -4,6 +4,8 @@ body.index {
   }
 
   .latest-article {
+    margin: 0 0 50px 0;
+
     .latest-article-title {
       font-weight: bold;
     }
@@ -24,11 +26,13 @@ body.index {
     list-style: none;
 
     li {
+      display: flex;
       padding: 8px 10px;
-      border-bottom: 1px dotted #eae4da
+      border-bottom: 1px dotted #eae4da;
     }
 
     a {
+      flex-grow: 1;
       text-decoration: none;
       &:hover {
         text-decoration: underline
@@ -36,8 +40,8 @@ body.index {
     }
 
     .previous-article-date {
+      margin-left: 1em;
       text-align: right;
-      float: right;
       color: #333333;
     }
   }

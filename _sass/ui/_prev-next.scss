@@ -7,19 +7,22 @@
   outline: none;
   text-align: center;
   border: 1px solid #ddd;
-  transition: border-color .5s ease-in 0s;
-  &:hover { border-color: #0D243B; }
+  color: #333;
 
   &__prev, &__next {
     font-size: .8em;
-    color: #333;
     margin: 10px 0;
+  }
+
+  &:hover {
+    border: 1px solid #333;
+    background-color: #333;
+    color: #fff;
   }
 
   &__title {
     font-size: 1em;
     font-weight: bold;
-    color: #333;
     margin-top: 10px;
     display: block;
   }
