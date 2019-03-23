@@ -1,12 +1,14 @@
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://nantes.afup.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://nantes.afup.org"
 
 title: "AFUP Nantes"
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Antenne AFUP sur Nantes
 twitter_username: AFUP_Nantes
 meetup_url: "https://www.meetup.com/fr-FR/afup-nantes-php/"
 
+permalink: /posts/:title
+
+ga_ua: "UA-33922307-1"
 home_featured_articles_count: 1
 
 # Build settings
@@ -15,17 +17,13 @@ theme: minima
 plugins:
   - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+   - Makefile
+   - docker-compose.yml
+   - docker-compose.override.yml-dist
+   - docker-compose.override.yml
+   - Gemfile
+   - Gemfile.lock
 
 feed:
   path: feed
