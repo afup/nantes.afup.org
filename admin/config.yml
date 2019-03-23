@@ -1,0 +1,23 @@
+backend:
+  name: github
+  repo: afup/nantes.afup.org
+
+publish_mode: editorial_workflow
+logo_url: "/files/theme/logo_simple.png"
+media_folder: "files/cms"
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+
+collections:
+  - name: "Articles"
+    label: "Articles"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "date", format: "YYYY-MM-DD 00:00:00+01:00"}
+      - {label: "Texte", name: "body", widget: "markdown"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
