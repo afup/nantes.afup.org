@@ -4,7 +4,7 @@ title: Le Forum PHP 2013 aura lieu les 21 et 22 novembre 2013
 date: 2013-02-07T17:12:38+00:00
 author: communication
 layout: post
-guid: https://nantes.afup.org/?p=77
+guid: /archives/?p=77
 permalink: /2013/02/07/le-forum-php-2013-aura-lieu-les-21-et-22-novembre-2013/
 categories:
   - Non classé

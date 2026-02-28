@@ -1,4 +1,5 @@
 url: "http://nantes.afup.org"
+baseurl: /archives
 
 title: "AFUP Nantes"
 description: >-
@@ -8,7 +9,6 @@ meetup_url: "https://www.meetup.com/fr-FR/afup-nantes-php/"
 
 permalink: /posts/:title
 
-ga_ua: "G-V8VWN2N1V8"
 home_featured_articles_count: 1
 
 # Build settings

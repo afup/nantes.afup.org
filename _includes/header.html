@@ -2,7 +2,7 @@
 
   <div class="header-image">
     <a href="{{ site.baseurl }}/">
-      <img src="/files/theme/logo_text.png" style="width: 70%"/>
+      <img src="{{ '/files/theme/logo_text.png' | relative_url }}" style="width: 70%"/>
     </a>
   </div>
 
@@ -22,13 +22,13 @@
 
     {% if site.subheader %}
       {% for subheader_item in site.subheader %}
-      <a href="{{ subheader_item.url }}" class="nav-item-mobile-only">
+      <a href="{{ subheader_item.url | relative_url }}" class="nav-item-mobile-only">
         <i class="fas fa-{{ subheader_item.icon }} icon"></i>&nbsp;{{ subheader_item.label }}
       </a>
       {% endfor %}
     {% endif %}
 
     <label for="menu-checkbox" class="toggle-button" data-open="☰" data-close="☰" onclick></label>
-    <img src="/files/theme/logo_simple.png" class="logo-image" alt="{{ site.title }}"/>
+    <img src="{{ '/files/theme/logo_simple.png' | relative_url }}" class="logo-image" alt="{{ site.title }}"/>
   </nav>
 </header>

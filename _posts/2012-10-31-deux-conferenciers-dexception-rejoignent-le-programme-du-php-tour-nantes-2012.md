@@ -4,7 +4,7 @@ title: 'Deux conférenciers d&rsquo;exception rejoignent le programme du PHP Tou
 date: 2012-10-31T10:35:00+00:00
 author: communication
 layout: post
-guid: https://nantes.afup.org/?p=56
+guid: /archives/?p=56
 permalink: /2012/10/31/deux-conferenciers-dexception-rejoignent-le-programme-du-php-tour-nantes-2012/
 categories:
   - Non classé

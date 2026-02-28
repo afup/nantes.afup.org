@@ -4,7 +4,7 @@ title: PHP Tour Nantes 2012 – 29 et 30 novembre
 date: 2012-10-02T17:08:31+00:00
 author: martin
 layout: post
-guid: https://nantes.afup.org/?p=30
+guid: /archives/?p=30
 permalink: /2012/10/02/php-tour-nantes-2012-29-et-30-novembre/
 categories:
   - phptour

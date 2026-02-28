@@ -4,7 +4,7 @@ title: Une très belle année 2013 !
 date: 2013-01-08T15:49:48+00:00
 author: communication
 layout: post
-guid: https://nantes.afup.org/?p=69
+guid: /archives/?p=69
 permalink: /2013/01/08/une-tres-belle-annee-2013/
 categories:
   - Non classé

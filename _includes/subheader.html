@@ -1,7 +1,7 @@
 {% if site.subheader and page.has_subheader %}
 <div class="subheader">
     {% for subheader_item in site.subheader %}
-    <a class="subheader-link" href="{{ subheader_item.url }}">
+    <a class="subheader-link" href="{{ subheader_item.url | relative_url }}">
         <i class="fas fa-{{ subheader_item.icon }} icon"></i>&nbsp;{{ subheader_item.label }}
     </a>
     {% endfor %}

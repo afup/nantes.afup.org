@@ -4,7 +4,7 @@ title: 'Faites entendre votre voix lors de l&rsquo;Assemblée Générale'
 date: 2013-01-22T16:00:54+00:00
 author: communication
 layout: post
-guid: https://nantes.afup.org/?p=73
+guid: /archives/?p=73
 permalink: /2013/01/22/faites-entendre-votre-voix-lors-de-lassemblee-generale/
 categories:
   - Non classé

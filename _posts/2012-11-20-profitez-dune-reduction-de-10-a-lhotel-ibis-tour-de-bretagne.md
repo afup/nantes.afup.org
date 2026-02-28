@@ -4,7 +4,7 @@ title: 'Profitez d&rsquo;une réduction de 10% à l&rsquo;hôtel Ibis &#8211; To
 date: 2012-11-20T13:32:38+00:00
 author: communication
 layout: post
-guid: https://nantes.afup.org/?p=61
+guid: /archives/?p=61
 permalink: /2012/11/20/profitez-dune-reduction-de-10-a-lhotel-ibis-tour-de-bretagne/
 categories:
   - phptour

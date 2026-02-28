@@ -6,7 +6,10 @@ layout: compress
 
   {% include head.html %}
 
-  <body class="{{ page.body_class }}">
+  <body class="{{ page.body_class }}" style="padding-top: 56px;">
+    <div style="position: fixed; top: 0; left: 0; width: 100%; background-color: red; color: white; font-weight: bold; text-align: center; padding: 15px 0; z-index: 1000;">
+      Vous consultez un site archivé. <a href="/" style="color: white; text-decoration: underline;">Consulter le site actuel</a>.
+    </div>
     <div class="content-container">
         {% include header.html %}
 

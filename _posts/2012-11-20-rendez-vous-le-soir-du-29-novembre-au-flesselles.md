@@ -4,7 +4,7 @@ title: Rendez-vous le soir du 29 novembre au Flesselles
 date: 2012-11-20T13:47:39+00:00
 author: communication
 layout: post
-guid: https://nantes.afup.org/?p=65
+guid: /archives/?p=65
 permalink: /2012/11/20/rendez-vous-le-soir-du-29-novembre-au-flesselles/
 categories:
   - phptour

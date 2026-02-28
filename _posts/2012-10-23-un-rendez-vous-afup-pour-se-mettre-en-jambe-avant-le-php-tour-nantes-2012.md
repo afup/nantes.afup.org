@@ -4,7 +4,7 @@ title: Un rendez-vous AFUP pour se mettre en jambe avant le PHP Tour Nantes 2012
 date: 2012-10-23T15:24:59+00:00
 author: communication
 layout: post
-guid: https://nantes.afup.org/?p=49
+guid: /archives/?p=49
 permalink: /2012/10/23/un-rendez-vous-afup-pour-se-mettre-en-jambe-avant-le-php-tour-nantes-2012/
 categories:
   - Non classé

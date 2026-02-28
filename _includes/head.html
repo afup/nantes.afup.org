@@ -33,7 +33,7 @@
   <meta name="twitter:title" content="{{ page.title }}">
   <meta name="twitter:description" content="{{ page.summary }}">
 
-  <link rel="icon" href="/files/theme/logo_simple.png" sizes="192x192" />
+  <link rel="icon" href="{{ '/files/theme/logo_simple.png' | relative_url }}" sizes="192x192" />
 
   {% if page.bg %}
     <meta property="og:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/{{ page.bg }}">
@@ -43,6 +43,5 @@
     <meta name="twitter:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/bg.svg">
   {% endif %}
 
-  {% include js_head.html %}
 
 </head>

@@ -4,7 +4,7 @@ title: Apéro PHP à Nantes le 19 septembre 2012
 date: 2012-09-13T14:35:50+00:00
 author: communication
 layout: post
-guid: https://nantes.afup.org/?p=21
+guid: /archives/?p=21
 permalink: /2012/09/13/apero-php-a-nantes-le-19-septembre-2012/
 categories:
   - apéro php

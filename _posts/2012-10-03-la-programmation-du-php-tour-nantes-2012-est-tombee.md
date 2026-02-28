@@ -4,7 +4,7 @@ title: La programmation du PHP Tour Nantes 2012 est tombée !
 date: 2012-10-03T09:21:36+00:00
 author: communication
 layout: post
-guid: https://nantes.afup.org/?p=34
+guid: /archives/?p=34
 permalink: /2012/10/03/la-programmation-du-php-tour-nantes-2012-est-tombee/
 categories:
   - Non classé
